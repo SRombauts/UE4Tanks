@@ -4,3 +4,6 @@
 
 #include "Engine.h"
 
+// Main game log category
+DECLARE_LOG_CATEGORY_EXTERN(Tanks, Log, All);
+

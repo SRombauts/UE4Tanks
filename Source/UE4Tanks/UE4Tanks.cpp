@@ -3,3 +3,6 @@
 #include "UE4Tanks.h"
 
 IMPLEMENT_PRIMARY_GAME_MODULE( FDefaultGameModuleImpl, UE4Tanks, "UE4Tanks" );
+
+// Main game log category
+DEFINE_LOG_CATEGORY(Tanks);
