@@ -18,6 +18,9 @@ ATank::ATank()
 
 	TankSprite = CreateDefaultSubobject<UPaperSpriteComponent>(TEXT("TankSprite"));
 	TankSprite->AttachTo(TankDirection);
+
+	ChildTurret = CreateDefaultSubobject<UChildActorComponent>(TEXT("Turret"));
+	ChildTurret->AttachTo(TankDirection);
 }
 
 // Called when the game starts or when spawned

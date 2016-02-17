@@ -31,4 +31,8 @@ private:
 	// Sprite for the tank body.
 	UPROPERTY(VisibleAnywhere, BlueprintReadOnly, Category = "Tank", meta = (AllowPrivateAccess = "true"))
 	class UPaperSpriteComponent* TankSprite;
+
+	// The Actor used as the turret.
+	UPROPERTY(VisibleAnywhere, BlueprintReadOnly, Category = "Tank", meta = (AllowPrivateAccess = "true"))
+	class UChildActorComponent* ChildTurret;
 };
